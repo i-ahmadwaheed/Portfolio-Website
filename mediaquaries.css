@@ -1,0 +1,198 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #mobile-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 10vh;
+    }
+    .logo-sec1 img{
+        height: 40%;
+    }
+    .logo-sec1 p{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    #profile{
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+        height: 105vh;
+    }
+    .profile-image{
+        padding: 0;
+        height: auto;
+        max-height: 275px;
+        width: auto;
+        align-items: center;   
+    }
+    .profile-image img{
+        max-height: 100%;
+        height: auto;
+        width: auto;
+    }
+    .profile-text{
+        margin-bottom: 33px;
+    }
+    .profile-text p{
+        padding-bottom: 10px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .profile-text h1{
+        font-size: 2rem;
+        flex-wrap: wrap;
+    }
+    .profile-text span p{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 10px;
+        color: rgba(81, 82, 83, 0.849);
+    }
+    #about{
+        height:auto;
+        /* max-height: 1vh; */
+    }
+    .about-sec{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .frontend-sec{
+        height: auto;
+        max-height: 388px;
+        width: auto;
+        max-width: 250px;
+    }
+    .about-section{
+        height: auto;
+        max-height: 388px;
+        width: auto;
+        max-width: 250px;
+        margin-bottom: 50px;
+    }
+    .h1-tag{
+        font-size: 1.2rem; 
+    }
+    .skill-name-sec img{
+        height: 30px;
+    }
+    .skill-name-sec{
+        display: flex;
+        align-items:center;
+        gap: 1.5rem;
+    }
+    .skill-name-sec h1{
+        font-size: 1.2rem;
+    }
+    .para-1 p{
+        font-size: 1rem;
+    }
+    #projects{
+        height: auto;
+        max-height: 275vh;
+    }
+    .project-catlog{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .project{
+        height: 399px;
+        width: 220px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color : #fafafa88;
+    
+    }
+    .project-image{
+        height: auto;
+        max-height: 250px;
+    }
+    .project-image img{
+        height:auto;
+        max-height: 100%;
+        border-radius:20px ;
+    }
+    .project-info h1{
+        font-size: 1.2rem;
+    }
+    .btn1{
+        background-color: #fff;
+        font-size: 14px;
+    }
+    .project-info button{
+        height: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+        padding: 10px 15px;
+    }
+    #contact-me{
+        height: auto;
+        /* max-height: 80vh; */
+        flex-direction: column;
+        
+    }
+    #contact-me h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    #contact-me h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .contact-container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      }
+      
+      .contact-button {
+        padding: 15px 25px;
+        font-size: 1.3rem;
+      }
+      
+      .contact-text {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      /* FOOTER STARTS HERE */
+    footer{
+        background-color: #23252F;
+        color: #ffff;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .soical-links{
+        height: 10vh;
+        border-bottom: 1px solid gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .para p{
+        font-size: 1.2rem;
+    }
+    .links a{
+        font-size: 1.3rem;
+        margin-right:9px;
+        color: #ffff;
+    }
+    .links .fa-brands:hover{
+        color: rgb(58, 146, 247);
+    }
+    .copright p{
+        font-size: 13px;
+    }
+}

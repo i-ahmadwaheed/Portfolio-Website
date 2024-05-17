@@ -178,15 +178,12 @@
         height: 100vh;
     }
     .profile-image{
-        height: 400px;
+        height: 600px;
         width: 400px;
         display: flex;
         align-items: center;
         justify-content: center;
-        /* border-bottom: 5px solid black;
-        border-top: 5px solid orangered;
-        border-radius: 50%; */
-        margin: 120px 0 0 65px;
+        /* margin: 50px 0 0 0; */
 
     }
 
@@ -195,37 +192,33 @@
         height: auto;
     }
 
-    .profile-image::after {
+    /* .profile-image::after {
         content: "";
         position: absolute;
-        top: 51%;
-        left: 35%;
+        top: 50%;
+        left: 50%;
         transform: translate(-50%, -50%) rotate(45deg);
         height: 400px;
         width: 400px;
-        border-bottom: 5px solid black;
-        border-top: 5px solid orangered;
+        border: 2px solid grey;
         border-radius: 50%;
-        animation: move 3.5s infinite;
+        animation: move 1.5s infinite;
     }
 
     @keyframes move {
         0% {
-            border-color: black;
+            border-color: gray;
         }
-        25% {
-            border-color: transparent;
+        33% {
+            border-color: white;
         }
-        50% {
-            border-color: orangered;
-        }
-        75% {
-            border-color: transparent;
+        66% {
+            border-color: gray;
         }
         100% {
             transform: translate(-50%, -50%) rotate(225deg);
         }
-    }
+    } */
 
     .profile-text{
         align-self: center;

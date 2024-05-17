@@ -52,20 +52,7 @@
         padding-top: 10px;
         color: rgba(81, 82, 83, 0.849);
     }
-    .profile-image::after {
-        content: "";
-        position: absolute;
-        top: 34%;
-        left: 56%;
-        transform: translate(-50%, -50%) rotate(45deg);
-        /* height: auto; */
-        height: 275px;
-        width: 275px;
-        border-bottom: 3px solid black;
-        border-top: 3px solid orangered;
-        border-radius: 50%;
-        animation: move 3.5s infinite;
-    }
+
     #about{
         height:auto;
         /* max-height: 1vh; */
